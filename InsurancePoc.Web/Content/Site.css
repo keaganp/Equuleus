@@ -1,0 +1,216 @@
+﻿body
+{
+    background-color: #292929;
+}
+
+.dataTables
+{
+    white-space: nowrap;
+}
+
+.dataTables label, .dataTables input
+{
+    display: inline-block;
+}
+
+
+.form-control
+{
+}
+
+.input-group-addon
+{
+    background-color: #2183c4;
+}
+
+.width-300
+{
+    margin-top: 8px;
+    width: 300px;
+    padding-left: 0px;
+}
+
+
+.input-group[class*="col-"]
+{
+    padding-left: 15px;
+    width: 315px;
+}
+
+.control-label
+{
+    padding-right: 0px;
+}
+
+
+.pagination
+{
+    margin-top: 0px;
+}
+
+
+.info-table
+{
+    border-spacing: 3px;
+    border-collapse: separate;
+}
+
+.info-table th
+{
+    padding-left: 30px;
+    text-align: right;
+}
+
+.info-table td
+{
+    background-color: #272b30;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+
+td.danger
+{
+    color: #ffffff;
+    background-color: #ee5f5b;
+    border-color: #ed4d63;
+    font-weight: bold;
+}
+
+td.danger-font
+{
+    font-weight: bold;
+    color: #ee5f5b;
+}
+
+#main_content
+{
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+
+input[type="text"], input[type="password"]
+{
+    height: 25px;
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+select.form-control
+{
+    height: 25px;
+    font-size: 12px;
+    line-height: 10px;
+    padding-right: 0px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+span.input-group-addon
+{
+    margin-top: 8px;
+    height: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+
+
+
+
+.panel-primary > .panel-heading
+{
+    color: #ffffff;
+    background-color: #2183c4;
+    font-weight: bold;
+}
+
+
+input.error, select.error
+{
+    background-color: #ffdddd;
+    border-color: #ff6666;
+    border-radius: 4px;
+}
+label.error
+{
+    color: #ff6666;
+}
+input[type='radio'].error
+{
+        background-color: #ffdddd;
+    border-color: #ff6666;
+    border-radius: 4px;
+
+}
+
+.form-horizontal .control-label, .form-horizontal .radio, .form-horizontal .checkbox, .form-horizontal .radio-inline, .form-horizontal .checkbox-inline
+{
+    padding-top: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h4
+{
+    color: #428bca;
+    font-weight: bold;
+}
+
+.close
+{
+    opacity: 0.7;
+}
+
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn
+{
+    opacity: 0.25;
+    filter: alpha(opacity=25);
+}
+
+.progress-bar-info {
+background-color: #3399ff;
+}
+
+.title_text
+{
+    color:#eeeeee;
+    font-weight:normal;
+    border-bottom: solid 2px #3399ff;
+    width:100%;
+    margin-bottom: 15px;
+}
+
+
+
+/*Chart Styles*/
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #888;
+    shape-rendering: crispEdges;
+}
+
+.axis .tick text
+{
+    font: 10px sans-serif;
+    fill:#888;
+  }
+  
+.hor_line
+{
+    opacity:0.09;
+}

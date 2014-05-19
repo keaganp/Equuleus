@@ -1,0 +1,76 @@
+﻿<div>
+    <ul class="breadcrumb" style="margin-bottom: 5px;">
+        <li class="active"><a href="/#/policies">Policy Search</a></li>
+    </ul>
+</div>
+<div class="well " style='margin-left: 15px; margin-right:15px'>
+<h5>Search Filter:</h5>
+    <div class="dataTables row">
+        <div class="col-md-3"
+            <label>
+                Policy #:</label>
+            <input type="text" class="form-control" />
+        </div>
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-3">
+            <label>
+                ID Number :</label>
+            <input type="text" class="form-control" />
+        </div>
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-4">
+            <input type="button" class="btn btn-primary" value="Search" />
+        </div>
+    </div>
+</div>
+
+<table class="table table-striped table-bordered table-hover ">
+    <thead>
+        <tr>
+            <th>
+                Policy #
+            </th>
+            <th>
+                Policy Holder
+            </th>
+            <th>
+                ID Number
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody data-bind="foreach:Policies">
+        <tr>
+            <td data-bind="text:PolicyNum"></td>
+            <td data-bind="text:PolicyHolderFullName"></td>
+            <td data-bind="text:PolicyHolderIdNumber"></td>
+            <td>
+                <a  rel="popover" title="Policy Detail" data-placement="left"   data-bind="attr:{'href': '/#/policy/' + PolicyId }"  >
+                <i class="fa fa-eye"></i>
+                </a>
+                &nbsp;
+                <a rel="popover" title="Amend Policy" data-placement="left" data-bind="attr:{'href': '/#/policy/' + PolicyId }"  >
+                <i class="fa fa-edit"></i>
+                </a>
+                &nbsp;
+                <a rel="popover" title="Payment History" data-placement="left" data-bind="attr:{'href': '/#/payment_history/' + PolicyId }"  >
+                <i class="fa fa-money"></i>
+                </a>
+
+            </td>
+        </tr>
+    </tbody>
+</table>
+<ul class="pagination pagination-sm">
+                <li class="disabled"><a href="/#/policies">«</a></li>
+                <li class="active"><a href="/#/policies">1</a></li>
+                <li><a href="/#/policies">2</a></li>
+                <li><a href="/#/policies">3</a></li>
+                <li><a href="/#/policies">4</a></li>
+                <li><a href="/#/policies">5</a></li>
+                <li><a href="/#/policies">»</a></li>
+</ul>
