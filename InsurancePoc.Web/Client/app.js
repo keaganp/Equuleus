@@ -32,6 +32,7 @@
 
             // App modules
             'chart_premiums_collected': '/Client/dashboard/charts/premiums_collected/view',
+            'chart_agent_commisions': '/Client/dashboard/charts/agent_commissions/view',
             "v_dashboard": "/Client/dashboard/view",
             't_dashboard': '/Client/dashboard/template.html',
             'v_home': '/Client/home/view',

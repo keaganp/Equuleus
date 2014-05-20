@@ -187,8 +187,8 @@ background-color: #3399ff;
 
 .title_text
 {
-    color:#eeeeee;
-    font-weight:normal;
+    color:#aaa;
+    font-weight:bold;
     border-bottom: solid 2px #3399ff;
     width:100%;
     margin-bottom: 15px;
@@ -213,4 +213,14 @@ background-color: #3399ff;
 .hor_line
 {
     opacity:0.09;
+}
+
+.chart-bar{
+  fill: #3399ff;
+}
+
+.bar-name{
+  fill:#999;
+  font: 10pt sans-sefif;
+  text-align:right;
 }

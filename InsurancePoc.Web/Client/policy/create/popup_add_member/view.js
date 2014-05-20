@@ -1,4 +1,4 @@
-﻿define(['text!t_policy_popup_add_member', 'jquery'], //, 'bootstrap'], 
+﻿define(['text!t_policy_popup_add_member', 'jquery', 'bootstrap'], 
     function (tpl, $) {
 
     var _show = function () {
